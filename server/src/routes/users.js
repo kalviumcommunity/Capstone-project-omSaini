@@ -17,7 +17,7 @@ router.use(protect);
 // Admin only routes
 router.get('/', authorize('admin'), getUsers);
 router.get('/stats', authorize('admin'), getUserStats);
-// router.put('/:id', authorize('admin'), updateUser);
+router.put('/:id', authorize('admin'), updateUser);
 // router.delete('/:id', authorize('admin'), deleteUser);
 
 // User routes (accessible by the user themselves or admin)
