@@ -82,3 +82,8 @@ This project is licensed under the MIT License.
 ## Contact  
 For inquiries, collaborations, or demo requests, reach out at [your-email@example.com].
 
+
+ ## Deployed frontend server 
+ ## deployment link
+  https://fitkartcapstone.netlify.app/
+
