@@ -74,4 +74,4 @@ userSchema.virtual('profileUrl').get(function() {
   return `/api/users/${this._id}`;
 });
 
-module.exports = mongoose.model('User', userSchema); 
+module.exports = mongoose.model('User',   userSchema); 
